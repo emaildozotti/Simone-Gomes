@@ -131,9 +131,9 @@ export default function App() {
             className="w-full h-full"
           >
             <img
-              src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?q=80&w=1920&auto=format&fit=crop"
+              src="https://i.imgur.com/W41Tdn9.jpeg"
               alt="Simone Gomes"
-              className="w-full h-full object-cover grayscale-[20%] hover:grayscale-0 transition-all duration-1000"
+              className="w-full h-full object-cover transition-all duration-1000"
               referrerPolicy="no-referrer"
             />
             {/* Gradient overlays for polish */}
@@ -152,9 +152,9 @@ export default function App() {
       {/* 2. Pain Points Section */}
       <section className="py-24 bg-white">
         <div className="container mx-auto px-6 max-w-6xl">
-          <div className="grid md:grid-cols-2 gap-16 items-center">
-            <div data-aos="fade-right">
-              <h2 className="text-3xl md:text-4xl lg:text-5xl text-moss mb-12 leading-tight">
+          <div className="max-w-3xl mx-auto">
+            <div data-aos="fade-up">
+              <h2 className="text-3xl md:text-4xl lg:text-5xl text-moss mb-12 leading-tight text-center">
                 Você se reconhece neste cenário?
               </h2>
               <div className="space-y-10">
@@ -179,18 +179,6 @@ export default function App() {
                 <p className="text-moss italic text-xl leading-relaxed">
                   "Se você marcou 'sim' em pelo menos dois pontos, você não precisa de mais 'força'. Você precisa de estratégia para soltar o peso."
                 </p>
-              </div>
-            </div>
-            <div data-aos="fade-left" className="relative">
-              <div className="absolute -inset-4 border border-gold/10 rounded-[3rem] -z-10"></div>
-              <img
-                src="https://images.unsplash.com/photo-1544027993-37dbfe43562a?q=80&w=1000&auto=format&fit=crop"
-                alt="Escuta Ativa"
-                className="rounded-[2.5rem] shadow-2xl w-full object-cover aspect-[4/5]"
-                referrerPolicy="no-referrer"
-              />
-              <div className="absolute -bottom-10 -left-10 bg-moss p-10 rounded-3xl hidden lg:block shadow-2xl max-w-xs">
-                <p className="text-white font-serif text-2xl leading-snug">Escuta Ativa e Estratégica para Mulheres de Alto Impacto</p>
               </div>
             </div>
           </div>
@@ -276,9 +264,9 @@ export default function App() {
             <div data-aos="fade-right" className="relative group">
               <div className="absolute -inset-6 border border-gold/20 rounded-[3rem] transition-all group-hover:inset-0 duration-700"></div>
               <img
-                src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?q=80&w=1000&auto=format&fit=crop"
+                src="https://i.imgur.com/LZ63fF1.png"
                 alt="Especialista"
-                className="rounded-[2rem] relative z-10 grayscale group-hover:grayscale-0 transition-all duration-1000 shadow-2xl aspect-[4/5] object-cover"
+                className="rounded-[2rem] relative z-10 transition-all duration-1000 shadow-2xl aspect-[4/5] object-cover"
                 referrerPolicy="no-referrer"
               />
             </div>
