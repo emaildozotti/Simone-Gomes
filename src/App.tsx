@@ -192,22 +192,14 @@ export default function App() {
           <h2 data-aos="fade-up" className="text-3xl md:text-4xl lg:text-5xl text-moss mb-16 leading-tight">
             Entenda como funciona o processo de libertação emocional
           </h2>
-          <div data-aos="zoom-in" className="relative aspect-video bg-moss rounded-[2rem] overflow-hidden shadow-2xl group cursor-pointer">
-            <img
-              src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop"
-              alt="Video Thumbnail"
-              className="w-full h-full object-cover opacity-60 group-hover:scale-105 transition-transform duration-1000"
-              referrerPolicy="no-referrer"
+          <div data-aos="zoom-in" className="relative mx-auto rounded-[2rem] overflow-hidden shadow-2xl" style={{ maxWidth: '360px', aspectRatio: '9/16' }}>
+            <iframe
+              src="https://www.youtube.com/embed/SPTp1tq7cOI?autoplay=0&rel=0&modestbranding=1"
+              title="O Método Musculatura Emocional"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              className="absolute inset-0 w-full h-full border-0"
             />
-            <div className="absolute inset-0 flex items-center justify-center">
-              <div className="w-24 h-24 bg-gold/90 backdrop-blur-sm rounded-full flex items-center justify-center text-white shadow-2xl group-hover:scale-110 transition-transform duration-500">
-                <Play fill="currentColor" size={36} className="ml-1" />
-              </div>
-            </div>
-            <div className="absolute bottom-8 left-8 text-white text-left">
-              <p className="text-xs uppercase tracking-[0.4em] opacity-60 mb-2">Assista agora</p>
-              <p className="text-2xl font-serif">O Método Musculatura Emocional</p>
-            </div>
           </div>
         </div>
       </section>
